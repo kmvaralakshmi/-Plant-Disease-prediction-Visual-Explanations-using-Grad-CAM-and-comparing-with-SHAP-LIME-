@@ -1,0 +1,63 @@
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Datasets
+PlantVillage_dataset/
+*.zip
+*.tar.gz
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyTorch and Models
+*.pth
+*.pt
+*.ckpt
+models/trained/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Output directories
+outputs/
+outputs_*/
+potato_leaf_results/
+results/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.log
+.env
+.DS_Store
